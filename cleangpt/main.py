@@ -13,5 +13,5 @@ def main():
     max_tokens = len(text) if len(text) < 4096 else 4096
     make_more_human(text, max_tokens=max_tokens)
 
-if __name__ == "__main__":
+def cli_entry_point():
     main()
