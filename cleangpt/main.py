@@ -1,10 +1,10 @@
 import sys
-from helpers import make_more_human
+from helpers import make_more_human, make_more_human2
 
 # Accept an entire file as input
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python testing.py <filename>")
+        print("Usage: python main.py <filename>")
         sys.exit(1)
     filename = sys.argv[1]
     with open(filename, "r") as f:
@@ -15,3 +15,5 @@ def main():
 
 def cli_entry_point():
     main()
+
+main()

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="cleangpt",
-    version="0.1.2",
+    version="0.1.3",
     author="Emilio Andere",
     author_email="andere.emi@gmail.com",
     description="CLI to make AI-generated text more human-like.",
